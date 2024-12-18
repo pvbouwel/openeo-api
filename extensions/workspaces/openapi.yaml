@@ -301,7 +301,7 @@ components:
   schemas:
     workspace_id:
       type: string
-      pattern: '^[\w\-\.~]+$'
+      pattern: '^[A-Za-z0-9][\w\-\.~]{0,62}$' 
       example: my-workspace
     workspace_title:
       type: string
